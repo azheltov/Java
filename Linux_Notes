@@ -1,0 +1,16 @@
+kernel version
+  uname -a
+  uname -v
+  uname -r
+  
+  
+  
+ ip address
+   ifconfig
+                    Output:
+                    inet addr:  192.168.0.10
+                    bcast: 192.168.0.255
+                    IPV6 addr
+                    
+                    
+                    
