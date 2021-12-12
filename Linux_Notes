@@ -1,9 +1,17 @@
+curent working directory
+  .
+  pwd
+  
+  mv newfolder/* .            (move everything from dir to to current dir)
+
+---------------------------------------------------------------------------------
+
 kernel version
   uname -a
   uname -v
   uname -r
   
-  
+  ---------------------------------------------------------------------------------
   
  ip address
    ifconfig
@@ -11,20 +19,43 @@ kernel version
                     inet addr:  192.168.0.10
                     bcast: 192.168.0.255
                     IPV6 addr
+                    
+---------------------------------------------------------------------------------
+
 create directory 
-  mkdir
+  mkdir 
+  mkdir somefolder/folder{1..5}
   
 create file
   touch
                                     
-                    
+---------------------------------------------------------------------------------  
+
 delete
   rm 
   rmdir
+  rmdir delfolder/*         (removes empty dirs)
   
-  rm -r             -r stands for recursive (all inside the folder)
+  rm -r             (-r stands for recursive (delets all inside the folder))
   rm -r delfolder/
-  rm -ri               would ask for every file
+  rm -ri               (would ask for every file)
+  
+---------------------------------------------------------------------------------
+
+copy
+  cp
+  cp file1.txt file2.txt 
+  
+  cp - r copy_me/ destination/            (copy dir with its' content)
+  
+---------------------------------------------------------------------------------
+
+move
+  mv oldname.txt newname.txt
+  mv oldfolder/ newfolder
+  
+  
+
                     
                     
                     
