@@ -11,6 +11,20 @@ kernel version
                     inet addr:  192.168.0.10
                     bcast: 192.168.0.255
                     IPV6 addr
+create directory 
+  mkdir
+  
+create file
+  touch
+                                    
+                    
+delete
+  rm 
+  rmdir
+  
+  rm -r             -r stands for recursive (all inside the folder)
+  rm -r delfolder/
+  rm -ri               would ask for every file
                     
                     
                     
