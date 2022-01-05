@@ -58,6 +58,22 @@ move and rename
   mv -/Documents/newfolder/ ./jackpot   (new folder will be created and all the content from newfolder will be moved to Documents) 
 
 ---------------------------------------------------------------------------------
+calendar
+  cal 
+  
+clear
+  clear
+  
+date
+  date
+  
+all recent commands
+  history
+  !2 (select a command #2)
+  !! (run most recent command)
+  
+-y
+
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
